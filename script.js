@@ -6,11 +6,9 @@
 // Задание 2
 // Необходимо создать переменную name, записать в эту переменную свое имя. Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. Вывести значение переменной admin в консоль.
 
-let tempCelsius = 40;
-console.log(tempCelsius);
-
-let tempFahrenheit = (9 / 5) * tempCelsius + 32;
-console.log(tempFahrenheit);
+let tCelsius = +prompt('Введите температуру в грудусах Цельсия');
+let tFahrenheit = (9 / 5) * tCelsius + 32;
+alert(`Цельсий: ${tCelsius}, Фаренгейт: ${tFahrenheit}`);
 
 
 let name = 'Nadezhda';
